@@ -136,7 +136,7 @@ header {
 
 .box-button2 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button2:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button2:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box3*/
 
@@ -150,7 +150,7 @@ header {
 
 .box-button3 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button3:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button3:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box4*/
 
@@ -164,7 +164,7 @@ header {
 
 .box-button4 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button4:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button4:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box5*/
 
@@ -178,7 +178,7 @@ header {
 
 .box-button5 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button5:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button5:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box6*/
 
@@ -192,4 +192,4 @@ header {
 
 .box-button6 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 300px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button6:hover {width: 320px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button6:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
