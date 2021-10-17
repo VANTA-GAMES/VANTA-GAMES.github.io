@@ -1,0 +1,195 @@
+@font-face { font-family: 'silgothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/silgothic.woff') format('woff'); font-weight: normal; }
+@font-face { font-family: 'NanumGothic'; src: url('fonts.googleapis.com/earlyaccess/nanumgothic.css'); }
+@font-face { font-family: 'coredream'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face{
+font-family:'Tomorrow';
+src: url('src/Tomorrow-Light.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'S-CoreDream-3Light';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html { scroll-behavior: smooth;font-family: 'S-CoreDream-3Light', 'Tomorrow'}
+
+.main { text-align:center;width: 100%;height: 150px;margin-top: 160px;}
+.main img { max-width: 80%;height: auto;}
+.emp {margin-top: 20px;}
+
+body {background-color: #222;background-repeat: no-repeat;background-size: auto;background-attachment: fixed;}
+
+.bottom {font-family: 'NanumGothic';text-align: center;color: white;margin-bottom: 10px;background-color: #1c1c1c;height: 250px;}
+
+.bottomleft {font-family: 'NanumGothic';color: white;text-transform: 100px;margin-left: 0%;}
+
+.footer {width:100%;height:100px;position:absolute;bottom:0;background-color:#1c1c1c;text-align: center;color: white;}
+html,body{height:100%}
+
+body{margin:0}
+
+#body{min-height:100%}
+
+
+#foot{background:#1c1c1c;color: #777777;text-align: center;margin-top:10%;height:170px; font-size: 12px; font-family: 'S-CoreDream-3Light', 'Tomoroow';} /*250px, 150px*/
+
+#body{background:#eee}
+
+A:link {text-decoration: none;color: #777;} 
+
+/* 햄버거 아이콘 */
+/* #: id의 약자, .: class의 약자 */
+/* a#f (<a id="f"> 를 감지) */
+#menuicon {display: none;}
+.sidebar {left: -300px;position: fixed;transition: all .35s;top:100px;}
+#menuicon:checked + .sidebar {left: -200px;}
+#menuicon + label {display: block;width: 40px;height: 30px;position: fixed;cursor:pointer;margin-left: 10px;}
+#menuicon + label span {display: block;position: absolute;width: 85%;height: 5px;border-radius: 50px;background: #777;transition: all .35s;}
+#menuicon:checked + label span {background: #999;}
+#menuicon + label span:nth-child(1) {top: 5%;}
+#menuicon + label span:nth-child(2) {top: 50%;transform: translateY(-50%);}
+#menuicon + label span:nth-child(3) {bottom: 5%;}
+#menuicon:checked + label span:nth-child(1) {top: 50%;transform:translateY(-50%) rotate(45deg);}
+#menuicon:checked + label span:nth-child(2) {opacity: 0;}
+#menuicon:checked + label span:nth-child(3) {bottom: 50%;transform:translateY(50%) rotate(-45deg);}
+
+.banner1 a {margin-top: 20px;position: fixed;left: -250px;transition: 0.3s;} 
+.banner2 a {margin-top: 80px;position: fixed;left: -250px;;transition: 0.3s;}
+.banner3 a {margin-top: 140px;position: fixed;left: -250px;transition: 0.3s;}
+.banner1 a:hover {left: -175px;}
+.banner2 a:hover {left: -175px;}
+.banner3 a:hover {left: -175px;}
+/* 상단 메뉴 */
+nev {position: fixed; left: 0; top: 0; width: 100%; background: #0E0E0E; box-shadow: 0 20px 80px rgb(0,0,0);}
+nev label {margin-top: 5px;}
+nev div {display: flex; width: 500px; margin: 0 auto; position: relative;}
+nev div a {flex:1; display: block; height: 40px; line-height: 40px; text-align: center; color: #5f5f5f;} 
+nev div a.on {color: white;}
+nev div > span {position: absolute; left: 0; bottom: 0; height: 3px; background: #4e4599; width: 80px; opacity: 0; transition: all .5s;}
+nev div a:nth-child(1).on ~ span {left: 0; opacity: 1;}
+nev div a:nth-child(2).on ~ span {left: 85px; opacity: 1;}
+nev div a:nth-child(3).on ~ span {left: 169px; opacity: 1;}
+nev div a:nth-child(4).on ~ span {left: 252px; opacity: 1;}
+nev div a:nth-child(5).on ~ span {left: 336px; opacity: 1;}
+nev div a:nth-child(6).on ~ span {left: 418px; opacity: 1;}
+
+.MenuBarFont {font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+
+.MainMenuBarFont {
+  font-family: 'Tomorrow', 'S-CoreDream-3Light'; 
+  color: #fff;
+  margin-left: 16px;
+  margin-top: 5px;
+  position: fixed;
+  font-size: 25px;
+}
+
+
+div {white-space: nowrap;}
+
+header {  
+    height: 8px;
+    padding: 1rem;
+    color: #fff;
+    background: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 0 20px 80px #000;
+  }
+
+/*box*/
+
+.box {margin-top: 0px;color: #fff;text-align: center;margin: center;}
+
+.box-title {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center;}
+
+.box-subtitle {line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .15s;height: 60px;}
+
+.box-button:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*box2*/
+
+.box2 {margin-top: 70px;color: #fff;text-align: center;margin: center;}
+
+.box-title2 {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center; margin: 0 auto;}
+
+.box-subtitle2 {padding: 20px;line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc2 {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button2 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.box-button2:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*box3*/
+
+.box3 {margin-top: 70px;color: #fff;text-align: center;margin: center;}
+
+.box-title3 {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center; margin: 0 auto;}
+
+.box-subtitle3 {padding: 20px;line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc3 {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button3 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.box-button3:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*box4*/
+
+.box4 {margin-top: 70px;color: #fff;text-align: center;margin: center;}
+
+.box-title4 {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center; margin: 0 auto;}
+
+.box-subtitle4 {padding: 20px;line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc4 {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button4 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.box-button4:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*box5*/
+
+.box5 {margin-top: 70px;color: #fff;text-align: center;margin: center;}
+
+.box-title5 {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center; margin: 0 auto;}
+
+.box-subtitle5 {padding: 20px;line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc5 {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button5 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.box-button5:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*box6*/
+
+.box6 {margin-top: 70px;color: #fff;text-align: center;margin: center;}
+
+.box-title6 {font-size: 1.8rem; font-family: 'Tomorrow', 'S-CoreDream-3Light'; height: 65px;line-height: 25px;border-bottom: 2px solid rgb(65, 68, 75); color: #fff; width: 35%; text-align: center; margin: 0 auto;}
+
+.box-subtitle6 {padding: 20px;line-height: 1.5px;border-color: #1C1C1C; font-family: 'Tomorrow', 'S-CoreDream-3Light';}
+
+.box-desc6 {font-family: 'Tomorrow', 'S-CoreDream-3Light';font-size: 20px;}
+
+.box-button6 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 300px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.box-button6:hover {width: 320px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
