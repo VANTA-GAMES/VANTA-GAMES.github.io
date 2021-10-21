@@ -1,8 +1,22 @@
-@font-face { font-family: 'silgothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/silgothic.woff') format('woff'); font-weight: normal; }
-@font-face { font-family: 'NanumGothic'; src: url('fonts.googleapis.com/earlyaccess/nanumgothic.css'); }
-@font-face { font-family: 'coredream'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: 'silgothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/silgothic.woff') format('woff'); 
+  font-weight: normal;
+}
 
-@font-face{
+@font-face {
+  font-family: 'NanumGothic'; 
+  src: url('fonts.googleapis.com/earlyaccess/nanumgothic.css');
+}
+
+@font-face { 
+  font-family: 'coredream'; 
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
 font-family:'Tomorrow';
 src: url('src/Tomorrow-Light.ttf');
 font-weight: normal;
@@ -16,16 +30,34 @@ font-weight: normal;
 font-style: normal;
 }
 
-*{
+@font-face {
+    font-family: 'ChosunSm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
   padding: 0;
   margin: 0;
 }
 
-html { scroll-behavior: smooth;font-family: 'S-CoreDream-3Light', 'Tomorrow'}
+html {
+  scroll-behavior: smooth;
+  font-family: 'S-CoreDream-3Light', 'Tomorrow'
+}
 
-.main { text-align:center;width: 100%;height: 150px;margin-top: 160px;}
-.main img { max-width: 80%;height: auto;}
-.emp {margin-top: 20px;}
+.main {
+  text-align:center;width: 100%;height: 150px;margin-top: 160px
+}
+
+.main img { 
+  max-width: 80%;height: auto;
+}
+
+.emp {
+  margin-top: 20px;
+}
 
 body {background-color: #222;background-repeat: no-repeat;background-size: auto;background-attachment: fixed;}
 
@@ -85,6 +117,8 @@ nev div a:nth-child(6).on ~ span {left: 418px; opacity: 1;}
 
 .MenuBarFont {font-family: 'Tomorrow', 'S-CoreDream-3Light';}
 
+.chosunsm {font-family: 'ChosunSm';}
+
 
 .MainMenuBarFont {
   font-family: 'Tomorrow', 'S-CoreDream-3Light'; 
@@ -108,7 +142,7 @@ header {
     align-items: center;
     font-size: 25px;
     box-shadow: 0 20px 80px #000;
-  }
+  } 
 
 /*box*/
 
@@ -136,7 +170,7 @@ header {
 
 .box-button2 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button2:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button2:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box3*/
 
@@ -150,7 +184,7 @@ header {
 
 .box-button3 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button3:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button3:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box4*/
 
@@ -164,7 +198,7 @@ header {
 
 .box-button4 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button4:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button4:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box5*/
 
@@ -178,7 +212,7 @@ header {
 
 .box-button5 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button5:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button5:hover {width: 150px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
 
 /*box6*/
 
@@ -192,4 +226,93 @@ header {
 
 .box-button6 {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'Tomorrow', 'S-CoreDream-3Light';width: 300px;margin-top: 20px;transition: .35s;height: 60px;}
 
-.box-button6:hover {transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+.box-button6:hover {width: 320px;transition: .1s;font-size: 1.30rem;background-color: #fff;color: #000;}
+
+/*--*/
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+.container{
+  margin-top: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow {padding: .5rem 1rem;font-size: 1.25rem;line-height: 1.5px;border-radius: .3rem;color: white;background-color: #2E2E2E;border-color: #1C1C1C;font-family: 'ChosunSm';width: 150px;margin-top: 20px;transition: .35s;height: 60px;}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 63%, indigo 75%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+}
+
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #F68B1D, 
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
